@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio</title>
+</head>
+<body>
+    <!---header start-->
+
+   <header>
+    
+        <div class="header">
+            <h2><a href="index.html">PORTFOLIO</a></h2>
+            
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="project.html">PROJECT</a>
+               <a href="news.html">NEWS</a>
+              <a href="contact.html"> <button class="btn">CONTACT</button></a>
+            
+            
+        </div>
+        </div>
+    </div>
+
+
+   </header>
+   <!----header end-->
+   <!--contact info start-->
+<style type="text/css">
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'outfit';
+    background: rgb(236, 202, 137);
+}
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: purple;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: gray;
+    border-radius: 50px;
+    
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+
+}
+.contact-input:focus{
+    border: 2px solid red;
+}
+.contact-input::placeholder{
+    color: #a9a9a9;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    cursor: pointer;
+
+}
+@media (max-width:800px) {
+    .contact-input{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+    }
+}
+
+</style>
+   <div class="contact-container">
+    <form action="" class="contact-left">
+        <div class="contact-left-title">
+            <h2>Get in touch</h2>
+            <hr>
+        </div>
+        <input type="text" name="name" placeholder="your name" class="contact-input" required>
+        <input type="email" name="email" placeholder="your email" class="contact-input" required>
+        <textarea name="message" placeholder="your message" class="contact-input" required></textarea>
+        <button type="submit">submit <img src="" alt=""></button>
+        
+    </form>
+    <div class="contact-right">
+
+    </div>
+   </div>
+
+    <!--contact info end-->
+
+
+ 
+
+  
+
+    <!---- footer start --->
+
+   <footer>
+    <div class="footer-fluid">
+        <div class="footer">
+            <div class="get-in-touch">
+                <h5 class="text-uppercase">Get in touch</h5>
+                <p>keep in touch for updates</p>
+                <p>Bamenda, Cameroon</p>
+                <p>fortangkerry@gmail.com</p>
+                <p>+237673936925</p>
+            </div>
+            <div class="quick-links">
+                <h5 class="text-uppercase">Quick links</h5>
+                <p><a href="index.html">HOME</a></p>
+                <p><a href="about.html">ABOUT</a></p>
+                <p><a href="project.html">PROJECT</a></p>
+               <p><a href="news.html">NEWS</a></p>
+              <p><a href="contact.html"> CONTACT</a></p>
+            
+            </div>
+           
+        </div>
+        <div class="end">
+            <p>&copy; <a class="text-white" href="index.html">portfolio</a>. All Rights Reserved.</p>
+        </div>
+    </div>
+   </footer>
+
+   <!---- footer end --->
+</body>
+</html>

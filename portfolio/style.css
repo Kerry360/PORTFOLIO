@@ -1,0 +1,133 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: 'poppins', sans-serif;
+}
+
+.header{
+
+        
+        height: 80px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 0px, 25px;
+        background-color: white;
+        box-shadow: 0.5%;
+
+    
+    }
+.header h2{
+    font-family: arial;
+        font-size: 30px;
+        color: black;
+        cursor: pointer;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    justify-content: space-between;
+    display: flex;
+}
+.header  ul 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        text-align: center;
+    }
+   
+    .header .btn 
+    {
+        width: 200px;
+        height: 60px;
+        border-radius: 10px;
+        font-size: 18px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: orange;
+        color: black;
+        transition: 0.5s;
+    }
+    .header .btn:hover 
+    {
+        background-color: orange;
+        color: #fff;
+    }
+    .container-fluid{
+        display: flex;
+    
+    }
+    .container{
+        background-color: rgb(243, 187, 82);
+        height: 60vh;
+        width: 850px;
+        text-align: center;
+        
+    }
+    .container h2{
+    
+        font-family: arial;
+        
+        color: orange;
+        font-size: 20px;
+        padding-top: 100px;
+        
+        
+    }
+    .container h1{
+        font-family: arial;
+        font-size: 50px;
+    }
+    .container p{
+        font-family: arial;
+        font-size: 30px;
+        
+    }
+    .service-container{
+        display: flex;
+        text-align: center;
+    }
+    .service1{
+        width: 500;
+        height: 50vh;
+        
+
+    }
+    .service2{
+        width: 500;
+        height: 50vh;
+        
+    }
+    .service3{
+        width: 500;
+        height: 50vh;
+        
+    }
+    .container-fluid-about{
+        display: flex;
+    
+    }
+    .container-about{
+        background-color: rgb(243, 187, 82);
+        height: 90vh;
+        width: 100%;
+        text-align: center;
+    }
+    .footer{
+        display: flex;
+        text-align: center;
+        align-items: baseline;
+        justify-content: space-evenly;
+        
+    }
+    .footer-fluid{
+        background: rgb(105, 105, 105);
+        
+    }
